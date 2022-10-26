@@ -12,7 +12,7 @@ public class Fibonacci { //재귀 사용
 		}
 	}
 	public static void main(String[] args) {
-		System.out.println(fibonacci(100));
+		System.out.println(fibonacci(50));
 		
 	}
 	

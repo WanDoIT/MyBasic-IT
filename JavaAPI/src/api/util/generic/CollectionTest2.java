@@ -15,7 +15,7 @@ public class CollectionTest2 {
 		
 		long start = System.currentTimeMillis();
 		//두번째에 데이터를 1000000 추가.
-		for(int i=0; i<5; i++) {
+		for(int i=0; i<100000; i++) {
 			a1.add(1, "Two");
 			
 		}
@@ -31,7 +31,7 @@ public class CollectionTest2 {
 		l1.add("Three");
 
 		 start = System.currentTimeMillis();
-		for(int i=0; i<1000000; i++) {
+		for(int i=0; i<100000; i++) {
 			l1.add(1, "Two");
 			
 		}

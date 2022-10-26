@@ -8,12 +8,12 @@ public class CollectionTest3 {
 	public static void main(String[] args) {
 		//100000 개의 데이터를 가진 ArrayList 와 LinkedList 생성
 		ArrayList<Integer> al = new ArrayList<>();
-		for(int i =0; i<1000000; i++) {
+		for(int i =0; i<100000; i++) {
 			al.add(i);
 		}
 
 		LinkedList<Integer> li = new LinkedList<>();
-		for(int i =0; i<1000000; i++) {
+		for(int i =0; i<100000; i++) {
 			li.add(i);
 		}
 		
@@ -26,7 +26,7 @@ public class CollectionTest3 {
 		}
 		long end = System.currentTimeMillis();
 		System.out.println(end-start);
-		System.out.println(al);
+
 		
 		
 	}

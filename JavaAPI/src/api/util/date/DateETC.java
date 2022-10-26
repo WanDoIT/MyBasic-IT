@@ -17,10 +17,8 @@ public class DateETC {
 		System.out.println(calendar.get(calendar.YEAR));
 		
 		//최근에 많이 사용하는 날짜타입 //월에서 1 안빼도 됨.
-		LocalDateTime meetingTime = LocalDateTime.of(2022, 10,27,18,50);
+		LocalDateTime meetingTime = LocalDateTime.of(2022, 10,26,18,50);
 		System.out.println(meetingTime);
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 M월 d일 E요일");
-		System.out.println(sdf.format(meetingTime));
-		
+
 	}
 }

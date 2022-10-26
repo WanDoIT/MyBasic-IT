@@ -20,7 +20,7 @@ public class NoRecursionFibonacci { //재귀를 이용하지 않고 해결 - 시
 		
 	}
 	public static void main(String[] args) {
-		System.out.println(fibonacci(100));
+		System.out.println(fibonacci(50));
 	}
 	
 	
