@@ -1,6 +1,6 @@
 package api.util.generic;
 
-public class main {
+public class MainClass {
 	public static void main(String[] args) {
 		int n1 = 20;
 		int n2 = 30;

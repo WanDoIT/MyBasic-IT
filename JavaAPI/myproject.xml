@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>xml로 저장</comment>
+<entry key="카카오">불나서 서버터진 회사</entry>
+<entry key="네이버">서버 한번 터졌으면 좋겠다</entry>
+<entry key="내주식">카카오 네이버 반토막</entry>
+<entry key="아담">한국 최초의 사이버 가수</entry>
+</properties>

@@ -1,16 +1,6 @@
 package api.util.generic;
 
-class Algorithm<T>{
-	//2개의 데이터를 받아서 내용을 변경하는 메서드
-	
-	public void swap(T n1, T n2) {
-		System.out.println(n1);
-		T temp = n1;
-		n1 = n2;
-		n2 = temp;
-		System.out.println(n1);
-	}
-}
+import api.util.generic.Test.Algorithm;
 
 class Generics <T>{
 	private T[] data;
@@ -34,13 +24,13 @@ public class TemplateProgramming {
 		// 제너릭이 적용된 클래스의 인스턴스를 만들 때는 자료형을 기재해야 한다.
 		// 자료형을 기재하지 않으면 경고가 발생하고 Object 타입으로 간주한다.
 		
-		Algorithm<Integer> algorithm = new Algorithm<>();
-		Integer n1 = 20;
-		Integer n2 = 30;
+		Algorithm<Object> algorithm = new Algorithm<>();
+		Object n1 = "20";
+		Object n2 = "30";
 		algorithm.swap(n1,n2);
 		System.out.println(n1);
 		System.out.println(n1+"/"+n2);
-
+		
 		
 		//제너릭이 적용된 클래스의 인스턴스 만들기
 		Generics<String> g1 = new Generics<String>("karina","Suzi","iu");
