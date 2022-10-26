@@ -20,5 +20,9 @@ public class DateETC {
 		LocalDateTime meetingTime = LocalDateTime.of(2022, 10,26,18,50);
 		System.out.println(meetingTime);
 
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 M월 d일 E요일");
+		System.out.println(sdf.format(meetingTime)); //에러
+		
+
 	}
 }
