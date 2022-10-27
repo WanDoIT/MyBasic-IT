@@ -15,31 +15,18 @@ public class SetClassCompare {
 		hashSet.add("a");
 		linkedHashSet.add("a");
 		treeSet.add("a");
-		
 		hashSet.add("b");
 		linkedHashSet.add("b");
 		treeSet.add("b");
-
-		hashSet.add("c");
-		linkedHashSet.add("c");
-		treeSet.add("c");
-		
 		hashSet.add("1");
 		linkedHashSet.add("1");
 		treeSet.add("1");
-		
 		hashSet.add("2");
 		linkedHashSet.add("2");
 		treeSet.add("2");
-		
-		hashSet.add("3");
-		linkedHashSet.add("3");
-		treeSet.add("3");
-		
 		hashSet.add("c");
 		linkedHashSet.add("c");
 		treeSet.add("c"); // Set은 중복데이터 두번저장 안함.
-		
 		//데이터 출력
 		//HashSet : 어떤 순서로 출력될 지 예측할 수 없음
 		for(String a : hashSet) {

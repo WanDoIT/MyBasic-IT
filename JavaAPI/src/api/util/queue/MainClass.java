@@ -6,8 +6,6 @@ import java.util.PriorityQueue;
 
 import api.util.stack.PersonVO;
 
-
-
 public class MainClass {
 	public static void main(String[] args) {
 		//PriorityQueue는 데이터를 정렬된 순서대로 꺼낼 수 있도록 해주는 클래스.
@@ -18,10 +16,8 @@ public class MainClass {
 		intQueue.offer(100);
 		intQueue.offer(70);
 		intQueue.offer(90);
-		
-		
+
 		//데이터 꺼내기 poll-크기순으로 꺼내기
-		System.out.println(intQueue);
 		System.out.println(intQueue.poll());
 		System.out.println(intQueue.poll());
 
@@ -40,13 +36,11 @@ public class MainClass {
 			public int compare(PersonVO o1, PersonVO o2) {
 				return o1.getBithday().compareTo(o2.getBithday());
 			}
-
 		});
 		
 		persons.offer(new PersonVO(1,"가나",new Date(100,9,10), "01011111234"));
 		persons.offer(new PersonVO(2,"다라",new Date(101,1,2), "01012345678"));
 		persons.offer(new PersonVO(3,"마바",new Date(103,3,3), "01033331234"));
-		
 		
 		System.out.println(persons.poll());
 		System.out.println(persons.poll());
