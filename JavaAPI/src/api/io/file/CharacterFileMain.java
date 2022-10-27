@@ -23,12 +23,9 @@ public class CharacterFileMain {
 			pw.write("write로 쓰기2\n");
 			pw.flush();
 			pw.close();
-			
 		} catch (Exception e) {
 			System.out.println(e.getLocalizedMessage());
 		}
-		
-		
 		try {
 			//문자 데이터를 줄 단위로 읽을 수 있는 인스턴스 생성
 			BufferedReader br = new BufferedReader(new FileReader("sample.txt"));
@@ -43,20 +40,10 @@ public class CharacterFileMain {
 				String[] ar = line.split(",");
 				System.out.println(ar[0]);
 			}
-			
 			br.close();
 		} catch (Exception e) {
 			System.out.println(e.getLocalizedMessage());
 		}
-		
-		
-		
 		// 파일에서 문자열을 문자 단위로 읽어오기 : FileReader와 BufferedReader 이용
-		
-		
-	
-		
-		
-		
 	}
 }

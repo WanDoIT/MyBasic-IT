@@ -23,7 +23,6 @@ public class SerializableMain {
 			
 			//기록
 			oos.writeObject(list);
-
 			
 		} catch (Exception e) {
 			System.out.println(e.getLocalizedMessage());

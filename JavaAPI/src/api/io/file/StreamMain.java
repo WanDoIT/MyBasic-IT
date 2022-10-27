@@ -13,16 +13,12 @@ public class StreamMain {
 			//오늘 날짜를 문자열로 만들기
 			Date date = new Date();
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-			
 			//기록할 파일 만들기
-			FileOutputStream fos = new FileOutputStream("./sample.txt");
-			
+			FileOutputStream fos = new FileOutputStream("./"+sdf.format(date)+".txt");
 			//기록할 메세지 생성
 			String msg = "0abcdh";
-			
 			//파일에 기록
 			fos.write(msg.getBytes());
-			
 			//파일 닫기
 			fos.close();
 			
