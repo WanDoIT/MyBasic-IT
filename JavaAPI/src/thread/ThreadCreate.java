@@ -1,4 +1,4 @@
-package lamda;
+package thread;
 
 //Thread 클래스로 부터 상속받는 클래스를 생성
 class ThreadEx extends Thread {

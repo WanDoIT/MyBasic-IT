@@ -1,4 +1,4 @@
-package lamda;
+package thread;
 
 public class DaemonThread {
 	public static void main(String[] args) {
