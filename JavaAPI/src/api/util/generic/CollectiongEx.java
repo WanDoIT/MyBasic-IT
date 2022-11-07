@@ -19,9 +19,9 @@ public class CollectiongEx {
 		list.get(0);
 		System.out.println(list);
 		System.out.println(list.size());
-		int a = 2;
+		
 		list.forEach(b -> {
-			System.out.println(a);
+			System.out.println(b);
 		});
 		
 		
