@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
@@ -21,7 +22,8 @@ public class QuizEx5_13 {
 				question[c]=b;
 				c++;
 			}
-			
+			int[] arr=new StringBuilder().append(123).reverse().chars().map(Character:: getNumericValue ).toArray();
+			System.out.println(Arrays.toString(arr));
 			System.out.printf("Q%d. %s 의 정답을 입력하세요 .>", i + 1, new String(question));
 			String answer = scanner.nextLine();
 			// trim() answer , equals word[i] 으로 의 좌우 공백을 제거한 후 로 와 비교

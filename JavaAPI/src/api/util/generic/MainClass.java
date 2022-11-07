@@ -8,6 +8,13 @@ public class MainClass {
 		
 		System.out.println(n1);
 		System.out.println(n1+"/"+n2);
+		
+		System.out.println("--------------------------------------------");
+		
+		ABC<String> abc = new ABC<>();
+		String s= abc.getAbc();
+		StringBuilder a = new StringBuilder();
+		
 	}
 	
 	public static void a (int n1, int n2){
