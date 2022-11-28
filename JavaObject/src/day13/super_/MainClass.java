@@ -17,13 +17,15 @@ public class MainClass {
 //		System.out.println(t.info());
 
 		
-		Mother m = new Mother();
-		System.out.println(m.info());
-		
-		Employee e = new Employee("a",20, "과목");
-		System.out.println(e.info());
-
-		
+//		Mother m = new Mother();
+//		System.out.println(m.info());
+//		
+//		Employee e = new Employee("a",20, "과목");
+//		System.out.println(e.info());
+//		
+		Person p = new Person("a");
+		Teacher t = new Teacher("aa", 1, "we");
+		System.out.println(p.buyr(t));
 		
 		
 		

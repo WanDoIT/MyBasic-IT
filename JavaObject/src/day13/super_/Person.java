@@ -20,7 +20,9 @@ public class Person { //부모클래스로 사용
 		System.out.println("100줄짜리코드...");
 	
 	}
-
+	String buyr(Person p) {
+		return null;
+	}
 	String info() {
 		return "이름:" + name +", 나이:"+age;
 	}

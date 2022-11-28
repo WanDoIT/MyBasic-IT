@@ -1,12 +1,20 @@
 package quiz01;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 class Solution {
-    public String solution(String s) {
-        char arr[] = s.toCharArray();
-        Arrays.sort(arr);
-        StringBuilder sb = new StringBuilder();
-        return sb.append(arr).reverse().toString();
-    }
+	public static void main(String[] args) {
+		int n = 32;
+		int m = 990;
+		int a;
+		while(true) {
+			a = m%n;
+			if(m%n == 0) break;
+			m = n;
+			n = a;
+		}
+		System.out.println(n);
+		
+	    }
 }
